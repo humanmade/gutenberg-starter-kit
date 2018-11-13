@@ -30,6 +30,7 @@ function enqueue_editor_assets() {
 		'wp-blocks',
 		'wp-components',
 		'wp-editor',
+		'wp-plugins',
 	];
 
 	$locale_data = gutenberg_get_jed_locale_data( 'gutenberg-starter-kit' );
