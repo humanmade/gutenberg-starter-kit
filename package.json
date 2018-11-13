@@ -1,0 +1,53 @@
+{
+  "name": "gutenberg-starter-kit",
+  "version": "1.0.0",
+  "description": "A building block for building blocks.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env=production --config webpack.config.js",
+    "dev": "webpack-dev-server --env=development --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanmade/gutenberg-starter-kit.git"
+  },
+  "keywords": [
+    "gutenberg",
+    "wordpress",
+    "widgets"
+  ],
+  "author": "Robert O'Rourke <rob@humanmade.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/humanmade/gutenberg-widgets/issues"
+  },
+  "homepage": "https://github.com/humanmade/gutenberg-widgets#readme",
+  "devDependencies": {
+    "@wordpress/babel-plugin-makepot": "^2.1.2",
+    "@wordpress/browserslist-config": "^2.1.2",
+    "@wordpress/i18n": "^3.0.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-humanmade": "^0.5.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-merge": "^4.1.1"
+  }
+}

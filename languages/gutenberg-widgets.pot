@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/src/example-block/index.js:21
+msgid "Widget Area"
+msgstr ""
+
+#: assets/src/example-block/index.js:24
+msgid "Display a widget area"
+msgstr ""
+
+#: assets/src/example-block/index.js:35
+msgid "custom block"
+msgstr ""
