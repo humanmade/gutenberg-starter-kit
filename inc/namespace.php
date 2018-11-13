@@ -7,7 +7,7 @@ namespace HM\Gutenberg_Starter_Kit;
  */
 function setup() {
 	// Add block assets.
-	add_action( 'enqueue_block_editor_assets',  __NAMESPACE__ . '\\enqueue_editor_assets' );
+	add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\enqueue_editor_assets' );
 
 	// Enqueue front end assets.
 	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts' );
@@ -30,6 +30,8 @@ function enqueue_editor_assets() {
 		'wp-blocks',
 		'wp-components',
 		'wp-editor',
+		'wp-plugins',
+		'wp-edit-post',
 	];
 
 	$locale_data = gutenberg_get_jed_locale_data( 'gutenberg-starter-kit' );

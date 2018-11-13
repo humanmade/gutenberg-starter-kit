@@ -6,22 +6,22 @@ import './style.css';
 // Get translation functions
 const { __ } = wp.i18n;
 
-// Get built in components
+// Get built in editor components
 const {
 	RichText,
 	InspectorControls,
-	BlockControls
-} = wp.components;
+	BlockControls,
+} = wp.editor;
 
-export const name = 'starter-kit/example';
+export const name = 'starter-kit/block';
 
 export const settings = {
 
 	// The title shown in the block picker
-	title: __( 'Widget Area', 'gutenberg-starter-kit' ),
+	title: __( 'Example Block', 'gutenberg-starter-kit' ),
 
 	// A more detailed description
-	description: __( 'Display a widget area', 'gutenberg-starter-kit' ),
+	description: __( 'Example block description', 'gutenberg-starter-kit' ),
 
 	// The icon, from the list of dashicons or material UI icons
 	// https://material.io/tools/icons/
@@ -79,7 +79,7 @@ edit( { className, attributes, setAttributes } ) {
 },
 
 	// The output to save to the post content
-	save( { attributes } ) {
+	save( { className, attributes } ) {
 		const { title, description } = attributes;
 
 		return <div className={`starter-kit-block ${className}`}>

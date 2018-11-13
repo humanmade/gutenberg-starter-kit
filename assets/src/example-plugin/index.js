@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 const { PluginSidebar, PluginSidebarMoreMenuItem } = wp.editPost;
 
 // Export the plugin name
-export const name = 'Example Plugin';
+export const name = 'starter-kit-plugin';
 
 // Create a basic plugin placeholder with
 // more menu item and a custom sidebar
@@ -24,9 +24,9 @@ export const settings = {
 				</PluginSidebarMoreMenuItem>
 				<PluginSidebar
 					name="example-plugin"
-					title="My Sidebar"
+					title="Example Plugin"
 				>
-					Content of the plugin sidebar
+					Content of the example plugin sidebar
 				</PluginSidebar>
 			</Fragment>
 		)

@@ -10,6 +10,7 @@
 	background: rgba( 0,0,0,.5 );
 	border-radius: 10px;
 	padding: 10px;
+	color: #fff !important;
 }
 
 .starter-kit-block p {

@@ -4,11 +4,11 @@ msgstr ""
 "X-Generator: babel-plugin-makepot\n"
 
 #: assets/src/example-block/index.js:21
-msgid "Widget Area"
+msgid "Example Block"
 msgstr ""
 
 #: assets/src/example-block/index.js:24
-msgid "Display a widget area"
+msgid "Example block description"
 msgstr ""
 
 #: assets/src/example-block/index.js:35
