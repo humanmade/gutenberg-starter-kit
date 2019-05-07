@@ -32,9 +32,9 @@ function enqueue_editor_assets() {
 		'wp-editor',
 		'wp-plugins',
 		'wp-edit-post',
-	];
 
-	$locale_data = gutenberg_get_jed_locale_data( 'gutenberg-starter-kit' );
+
+	$locale_data = wp_set_script_translations( 'gutenberg-starter-kit' );
 
 	wp_enqueue_script( $handle, $js['src'], $deps, $js['ver'], false );
 	wp_add_inline_script( $handle, sprintf( 'wp.i18n.setLocaleData( %s, "gutenberg-starter-kit" );', wp_json_encode( $locale_data ) ), 'before' );
