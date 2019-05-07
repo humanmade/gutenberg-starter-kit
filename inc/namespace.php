@@ -32,7 +32,7 @@ function enqueue_editor_assets() {
 		'wp-editor',
 		'wp-plugins',
 		'wp-edit-post',
-
+	];
 
 	$locale_data = wp_set_script_translations( 'gutenberg-starter-kit' );
 
